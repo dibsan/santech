@@ -1,7 +1,16 @@
-body{
 
-background-size:1400px 200px;
-background-repeat:no-repeat;
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+
+
+
+
+body{
+  
+  
+  
 }
 #freetrial{
 border-radius:0px;
@@ -11,7 +20,7 @@ height:150px;
 padding:15px;
 margin-top:450px;
 margin-left:310px;
-border:1px solid white;
+border:1px solid yellowgreen;
 color:white;
 text-align:center;
 
@@ -42,7 +51,7 @@ height:150px;
 padding:15px;
 margin-top:-198px;
 margin-left:492px;
-border:1px solid white;
+border:1px solid yellowgreen;
 color:white;
 text-align:center;
 
@@ -59,7 +68,7 @@ height:150px;
 padding:15px;
 margin-top:-198px;
 margin-left:673px;
-border:1px solid white;
+border:1px solid yellowgreen;
 text-align:center;
 color:white;
 
@@ -73,13 +82,114 @@ height:150px;
 padding:15px;
 margin-top:-198px;
 margin-left:850px;
-border:1px solid white;
+border:1px solid yellowgreen;
 color:white;
 text-align:center;
 }
 
 .box{
-background-color:white;
+background-color:#9ACD32;
 
 
+}
+nav .li {
+  padding-left:0px;
+  background-color:#9ACD32;
+  color:red;
+  text-align:right;
+
+  
+  
+}
+nav ul{
+  margin:0px;
+  padding:0px;
+  list-style-type:none;
+  
+  
+}
+nav li{
+  display:inline-block;
+  margin:40px;
+}
+nav a{
+  text-decoration:none;
+  color:white;
+  padding:5px 60px;
+
+}
+body{
+  
+  background-color: #9ACD32;
+}
+.title{
+  font-family: "Single Day", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:25px;
+  color:white;
+  text-align:left;
+  margin-left:40px;
+}
+.li {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-size:23px;
+  text-align:right;
+  font-style: normal;
+  
+}
+.home{
+  
+  font-size:20px;
+}
+hr {
+    border-top: 5px solid white;
+    border-radius:30%;
+    margin-top:-35px;
+}
+
+footer {
+  background-color:teal;
+  margin-left:-10px;
+  margin-right:-10px;
+  margin-bottom:-30px;
+  padding-bottom:0px;
+  
+  
+  
+  color:white; 
+  border-top: 2px solid #ccc; /* Add a top border */
+}
+footer .right{
+  text-align:center;
+  
+  
+  
+}
+p.sanbit {
+  font-family: "Single Day", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:25px;
+  color:white;
+  text-align:left;
+margin-top:-50px;
+  margin-left:10px;
+}
+p.right{
+  
+  margin-top:150px;
+  
+}
+li.f{ 
+  display:inline-block;
+  margin:20px;
+  
+}
+ ul.lf{
+  margin:0px;
+  padding:0px;
+  list-style-type:none;
+  text-align:center
 }
