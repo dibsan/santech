@@ -21,7 +21,7 @@ background:#000000;
 width:150px;
 height:150px;
 padding:15px;
-margin-top:450px;
+margin-top:250px;
 margin-left:310px;
 border:1px solid yellowgreen;
 color:white;
@@ -306,7 +306,7 @@ margin-right:10px;
 }
 .blog-section .section-content .cards .card .article h4{
   font-size:24px;
-  color:black;
+  color:#4e1287;
   font-family: 'Sacramento', cursive;
   margin-top:-10px;
 }
